@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OurSpace</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
+    <link href="style.css" rel="stylesheet" />
+    <link rel="icon" href="logo.PNG">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body class="gradient-background">
+
+    <nav class="navbar fixed-top navbar-expand-sm" style="background-color: rgb(0, 0, 0)">
+
+        <!-- navbar class and navbar-brand are classes in BS-->
+        <a href="index.html" class="navbar-brand" style="font-size: 40px"><img src="logo.PNG" alt="globe logo"
+                height="60" width="60" class="ml-10">urSpace</a>
+
+        <!-- This button is used when screen size becomes small-->
+        <button class="navbar-toggler navbar-dark" data-bs-toggle="collapse" data-bs-target="#navbarmenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Different parts of the nav bar, put into a div class to make a collapsable menu-->
+        <div class="collapse navbar-collapse" id="navbarmenu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html"> Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html"> About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="product.html"> Service</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="FAQ.html"> FAQ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html"> Contact</a>
+                </li>
+            </ul>
+        </div>
+
+    </nav>
+
+
+    <div class="container">
+        <div class="row">
+            <h1 class=mt-4></h1>
+        </div>
+        <div class="row ">
+
+            <h1 class="text-center mt-4 nav-pad">Frequently Asked Questions</h1>
+        </div>
+
+        <div class="row cente">
+            <img src="Question.jpeg" class="roundedBorder faq-image">
+
+        </div>
+
+    </div>
+    <div class="container">
+        <div class="accordion" id="accordionExample">
+            <div>
+                <div id="headingOne">
+                    <h2>
+                        <button class="btn" data-toggle="collapse" data-target="#collapseOne"><strong>Is this service
+                                really free to use?</strong></button>
+                        <hr>
+                    </h2>
+                </div>
+                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <div>
+                        <p class="ml-3">Yes! College student have limited access to useful academic resources since most
+                            websites that provide targeted scholastic assistance are rather pricy. OurSpace is a
+                            non-profit organzation that, aware of the financial pressure most students face, provides
+                            free academic assistance through the collaborative effort of college students and alumni.
+                            </a></p>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div id="headingTwo">
+                    <h2>
+                        <button class="btn" data-toggle="collapse" data-target="#collapseTwo"><strong>Who are these
+                                tutors?</strong></button>
+                        <hr>
+                    </h2>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div>
+                        <p class="ml-3">Our tutors are college students and alummi who, having taken similar course
+                            themselves, can guide struggling students through a wide array of course material.</a></p>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div id="headingThree">
+                    <h2>
+                        <button style="text-align: left" class="btn" data-toggle="collapse"
+                            data-target="#collapseThree"><strong>What courses will I be able to receive help
+                                in?</strong></button>
+                        <hr>
+                    </h2>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div>
+                        <p class="ml-3">We offer our services for a variety of courses. Most common courses including
+                            Calculus, the sciences, and major-specific classes.</a></p>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div id="headingFour">
+                    <h2>
+                        <button style="text-align: left" class="btn" data-toggle="collapse"
+                            data-target="#collapseFour"><strong>Would I be able to connect with other students taking
+                                similar course work? </strong></button>
+                        <hr>
+                    </h2>
+                </div>
+                <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                    <div>
+                        <p class="ml-3">Yes! We have a server section for every class where you can connect with your
+                            peers. </a></p>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div id="headingFive">
+                    <h2>
+                        <button style="text-align: left" class="btn" data-toggle="collapse"
+                            data-target="#collapseFive"><strong>Is there a limit to the amount of questions users can
+                                ask?</strong></button>
+                        <hr>
+                    </h2>
+                </div>
+                <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                    <div>
+                        <p class="ml-3">There is no limit to the amount of questions you can ask. Our team of volunteers
+                            will work to provide you with assistance and solutions in a timely and efficient manner.</a>
+                        </p>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+
+
+    <div class="footer navbar-fixed-bottom">
+
+        <div class="container">
+            <div class="row mt-4">
+                <div class="col-md-4">
+
+                    <h1 class="mt-4" style="font-size:40px;">OurSpace</h1>
+                    <br>
+                    <h4 class="mb-5"><i>For Students By Students</i></h4>
+
+                </div>
+
+                <div class="col-md-2 mt-5">
+                    <ul id="footer">
+                        <li><a href="mailto:ourspaceofficialcontact@gmail.com" target="_blank">
+                                <img src="gmailLogo.png" height=60 width=80 alt="Gmail Logo">
+                        </li></a>
+                    </ul>
+                </div>
+                <div class="col-md-2 mt-5">
+                    <ul id="footer">
+
+                        <li><a href="https://www.instagram.com/ourspaceofficial/" target="_blank">
+                                <img src="instagramLogo.png" height=60 width=60 alt="Instagram Logo">
+                        </li></a>
+                    </ul>
+                </div>
+
+                <div class="col-md-2 mt-5">
+                    <ul id="footer">
+
+                        <li><a href="https://www.linkedin.com/company/ourspaceofficial/" target="_blank">
+                                <img src="linkedinLogo.png" height=60 width=60 alt="LinkedIn Logo">
+                        </li></a>
+                    </ul>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+
+</html>
